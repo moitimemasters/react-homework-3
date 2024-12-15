@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Dialog, DialogContent, DialogTitle, DialogActions, Button, Typography } from '@mui/material';
+import { styled } from '@mui/system';
 import { CardProps } from '../types';
 
 interface Props extends CardProps {
@@ -8,19 +9,35 @@ interface Props extends CardProps {
   onClose: () => void;
 }
 
+const StyledDialog = styled(Dialog)(() => ({
+  '& .MuiDialog-paper': {
+    minWidth: '60vw',
+    minHeight: '30vh',
+  },
+}));
+
+const StyledImg = styled('img')({
+  width: '100%',
+  height: 'auto',
+  borderRadius: '8px',
+});
+
+const StyledTypography = styled(Typography)({
+  margin: '20px 0',
+});
+
 const Modal: React.FC<Props> = ({ imageUrl, name, description, category, count, units, open, onClose }) => {
   return (
-    <Dialog open={open} onClose={onClose} maxWidth="md" fullWidth>
+    <StyledDialog open={open} onClose={onClose} maxWidth="md" fullWidth>
       <DialogTitle>{name}</DialogTitle>
       <DialogContent>
-        <img
+        <StyledImg
           src={imageUrl ?? "static/no-image.svg"}
           alt={name}
-          style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
         />
-        <Typography variant="body1" style={{ margin: '20px 0' }}>
+        <StyledTypography variant="body1">
           {description}
-        </Typography>
+        </StyledTypography>
         <Typography variant="subtitle1" color="textSecondary">
           Category: {category}
         </Typography>
@@ -33,7 +50,7 @@ const Modal: React.FC<Props> = ({ imageUrl, name, description, category, count, 
           Close
         </Button>
       </DialogActions>
-    </Dialog>
+    </StyledDialog>
   );
 };
 
