@@ -9,6 +9,7 @@ import {
     Button,
     IconButton,
     Typography,
+    MenuItem,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import { useTheme, useMediaQuery } from '@mui/material';
@@ -118,7 +119,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
                         onChange={(e) => setLocalCategory(+e.target.value)}
                         fullWidth
                     >
-                        {categories.map((category: Category) => <option key={category.id} value={category.id}>{category.name}</option>)}
+                        {categories.map((category: Category) => <MenuItem key={category.id} value={category.id}>{category.name}</MenuItem>)}
                     </TextField>
                 </ListItem>
                 <ButtonContainer>

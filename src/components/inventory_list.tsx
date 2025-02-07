@@ -8,6 +8,7 @@ import { useInView } from 'react-intersection-observer';
 import { styled } from '@mui/system';
 import { RootState } from '../store/store';
 import AddProductModal from './add_card_modal';
+import { useNavigate } from 'react-router';
 
 const Container = styled(Box)({
     maxWidth: '1200px',
@@ -18,8 +19,9 @@ const InventoryList: React.FC = () => {
     const items = useSelector((
         state: RootState
     ) => state.goods.items)
-    const [selectedItem, setSelectedItem] = React.useState<CardProps | null>(null);
     const [openAddModal, setOpenAddModal] = React.useState(false);
+
+    const navigate = useNavigate();
 
 
     const { search, nonZeroStock, category } = useSelector(
@@ -50,12 +52,10 @@ const InventoryList: React.FC = () => {
     }, [inView, filteredItems.length, visibleCount]);
 
     const handleCardClick = (item: CardProps) => {
-        setSelectedItem(item);
+        navigate(`/products/${item.id}`)
     };
 
-    const handleModalClose = () => {
-        setSelectedItem(null);
-    };
+
 
     const handleOpenAddModal = () => {
         setOpenAddModal(true);
@@ -103,9 +103,6 @@ const InventoryList: React.FC = () => {
                         ))}
                     </Grid2>
                 </Container>
-            )}
-            {selectedItem && (
-                <Modal open={!!selectedItem} onClose={handleModalClose} {...selectedItem} />
             )}
         </Box>
     );
