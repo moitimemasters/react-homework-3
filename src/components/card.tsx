@@ -33,7 +33,7 @@ const CardDescription = styled(Typography)({
     whiteSpace: 'nowrap',
 });
 
-interface Props extends CardProps {
+interface Props extends Omit<CardProps, "price | id"> {
     onClick: () => void;
 }
 

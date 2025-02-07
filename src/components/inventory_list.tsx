@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Typography, Box, Grid2 } from '@mui/material';
+import { Typography, Box, Grid2, Button } from '@mui/material';
 import { useSelector } from 'react-redux';
 import Card from './card';
 import Modal from './card_modal';
@@ -7,18 +7,20 @@ import { CardProps } from '../types';
 import { useInView } from 'react-intersection-observer';
 import { styled } from '@mui/system';
 import { RootState } from '../store/store';
-
-interface InventoryListProps {
-    items: CardProps[];
-}
+import AddProductModal from './add_card_modal';
 
 const Container = styled(Box)({
     maxWidth: '1200px',
     margin: '0 auto',
 });
 
-const InventoryList: React.FC<InventoryListProps> = ({ items }) => {
+const InventoryList: React.FC = () => {
+    const items = useSelector((
+        state: RootState
+    ) => state.goods.items)
     const [selectedItem, setSelectedItem] = React.useState<CardProps | null>(null);
+    const [openAddModal, setOpenAddModal] = React.useState(false);
+
 
     const { search, nonZeroStock, category } = useSelector(
         (state: RootState) => state.goods.filter
@@ -55,6 +57,15 @@ const InventoryList: React.FC<InventoryListProps> = ({ items }) => {
         setSelectedItem(null);
     };
 
+    const handleOpenAddModal = () => {
+        setOpenAddModal(true);
+    };
+
+    const handleCloseAddModal = () => {
+        setOpenAddModal(false);
+    };
+
+
     return (
         <Box
             height="100vh"
@@ -66,6 +77,12 @@ const InventoryList: React.FC<InventoryListProps> = ({ items }) => {
                 },
             }}
         >
+            <Button variant="contained" color="primary" onClick={handleOpenAddModal}>
+                Добавить товар
+            </Button>
+
+            <AddProductModal open={openAddModal} onClose={handleCloseAddModal} />
+
             {filteredItems.length === 0 ? (
                 <Typography variant="h6" gutterBottom>
                     Нет товаров, соответствующих фильтрам.
