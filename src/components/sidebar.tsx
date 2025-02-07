@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
     Drawer,
@@ -12,9 +11,12 @@ import {
     Typography,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import { useFilters } from '../context/FiltersProvider';
 import { useTheme, useMediaQuery } from '@mui/material';
 import { styled } from '@mui/system';
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '../store/store';
+import { updateFilterCriteria, resetFilterCriteria } from '../store/goodsSlice';
+import { Category } from '../types';
 
 interface SidebarProps {
     isOpen: boolean;
@@ -40,30 +42,39 @@ const ButtonContainer = styled('div')({
     display: 'flex',
     justifyContent: 'center',
     marginTop: '16px',
+    gap: '10px',
 });
 
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
-    const { search, nonZeroStock, category, updateFilters, resetFilters } = useFilters();
+    // Получаем текущие значения фильтров из goods slice
+    const { search, nonZeroStock, category } = useSelector(
+        (state: RootState) => state.goods.filter
+    );
+    const categories = useSelector((state: RootState) => state.categories.items)
+    const dispatch = useDispatch();
     const [localSearch, setLocalSearch] = React.useState(search);
     const [localNonZeroStock, setLocalNonZeroStock] = React.useState(nonZeroStock);
     const [localCategory, setLocalCategory] = React.useState(category);
+
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
     const handleFilterApply = () => {
-        updateFilters({
-            search: localSearch,
-            nonZeroStock: localNonZeroStock,
-            category: localCategory,
-        });
+        dispatch(
+            updateFilterCriteria({
+                search: localSearch,
+                nonZeroStock: localNonZeroStock,
+                category: localCategory,
+            })
+        );
         toggleSidebar();
     };
 
     const handleReset = () => {
-        resetFilters();
+        dispatch(resetFilterCriteria());
         setLocalSearch('');
         setLocalNonZeroStock(false);
-        setLocalCategory('');
+        setLocalCategory(-1);
         toggleSidebar();
     };
 
@@ -104,24 +115,20 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
                         select
                         label="Категория"
                         value={localCategory}
-                        onChange={(e) => setLocalCategory(e.target.value)}
+                        onChange={(e) => setLocalCategory(+e.target.value)}
                         fullWidth
                     >
-                        <option value=""></option>
-                        <option value="clothes">Одежда</option>
-                        <option value="electronics">Электроника</option>
+                        {categories.map((category: Category) => <option key={category.id} value={category.id}>{category.name}</option>)}
                     </TextField>
                 </ListItem>
                 <ButtonContainer>
                     <Button variant="contained" color="primary" onClick={handleFilterApply}>
                         Применить фильтры
                     </Button>
-                    <Button
-                        variant="outlined"
-                        color="secondary"
-                        onClick={handleReset}
-                        sx={{ marginLeft: '10px' }}
-                    >
+                    <Button variant="outlined"
+
+
+                        color="secondary" onClick={handleReset}>
                         Сбросить
                     </Button>
                 </ButtonContainer>

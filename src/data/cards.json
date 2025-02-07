@@ -2,483 +2,483 @@
     {
         "imageUrl": "https://img.freepik.com/free-photo/nature-animals_1122-1999.jpg?t=st=1731095114~exp=1731098714~hmac=457db4c3df4375d2a7cd629488b710e1d6cde6d1bd86733215f5791a43a54482&w=2000",
         "name": "Кошка",
-        "category": "Животные",
+        "categoryId": 2,
         "count": 1,
         "units": "штука"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "imageUrl": "https://img.freepik.com/free-photo/nature-animals_1122-1999.jpg?t=st=1731095114~exp=1731098714~hmac=457db4c3df4375d2a7cd629488b710e1d6cde6d1bd86733215f5791a43a54482&w=2000",
         "name": "Кошка",
-        "category": "Животные",
+        "categoryId": 2,
         "count": 1,
         "units": "штука"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "imageUrl": "https://img.freepik.com/free-photo/nature-animals_1122-1999.jpg?t=st=1731095114~exp=1731098714~hmac=457db4c3df4375d2a7cd629488b710e1d6cde6d1bd86733215f5791a43a54482&w=2000",
         "name": "Кошка",
-        "category": "Животные",
+        "categoryId": 2,
         "count": 1,
         "units": "штука"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     },
     {
         "name": "Card Title",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate quisquam praesentium voluptates sunt numquam iste mollitia at. Nihil, placeat laboriosam?",
-        "category": "Clothes",
+        "categoryId": 1,
         "count": 6,
         "units": "шт"
     }

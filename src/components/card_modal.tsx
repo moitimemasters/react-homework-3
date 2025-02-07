@@ -3,6 +3,8 @@ import React from 'react';
 import { Dialog, DialogContent, DialogTitle, DialogActions, Button, Typography } from '@mui/material';
 import { styled } from '@mui/system';
 import { CardProps } from '../types';
+import { useSelector } from 'react-redux';
+import { RootState } from '../store/store';
 
 interface Props extends CardProps {
   open: boolean;
@@ -26,7 +28,9 @@ const StyledTypography = styled(Typography)({
   margin: '20px 0',
 });
 
-const Modal: React.FC<Props> = ({ imageUrl, name, description, category, count, units, open, onClose }) => {
+const Modal: React.FC<Props> = ({ imageUrl, name, description, categoryId, count, units, open, onClose }) => {
+
+  const category = useSelector((state: RootState) => state.categories.items.filter((value) => value.id == categoryId)[0])
   return (
     <StyledDialog open={open} onClose={onClose} maxWidth="md" fullWidth>
       <DialogTitle>{name}</DialogTitle>
@@ -39,7 +43,7 @@ const Modal: React.FC<Props> = ({ imageUrl, name, description, category, count, 
           {description}
         </StyledTypography>
         <Typography variant="subtitle1" color="textSecondary">
-          Category: {category}
+          Category: {category.name} {category.description && "(" + category.description + ")"}
         </Typography>
         <Typography variant="subtitle1" color="textSecondary">
           Count: {count} {units}

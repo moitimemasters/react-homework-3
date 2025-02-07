@@ -3,6 +3,8 @@ import React from 'react';
 import { Card as MuiCard, CardContent, CardMedia, Typography, Tooltip, Box } from '@mui/material';
 import { CardProps } from "../types";
 import { styled } from '@mui/system';
+import { useSelector } from 'react-redux';
+import { RootState } from '../store/store';
 
 const CardContainer = styled(MuiCard)(({ theme }) => ({
     transition: 'transform 0.4s',
@@ -35,7 +37,8 @@ interface Props extends CardProps {
     onClick: () => void;
 }
 
-const Card: React.FC<Props> = ({ name, description, category, count, units, imageUrl, onClick }) => {
+const Card: React.FC<Props> = ({ name, description, categoryId, count, units, imageUrl, onClick }) => {
+    const category = useSelector((state: RootState) => state.categories.items.filter((value) => value.id == categoryId)[0])
     return (
         <Tooltip title={description ?? 'No description available'} placement="top">
             <CardContainer onClick={onClick}>
@@ -54,7 +57,7 @@ const Card: React.FC<Props> = ({ name, description, category, count, units, imag
                         {description}
                     </CardDescription>
                     <Typography variant="body2" color="text.secondary">
-                        {category}
+                        {category.name}
                     </Typography>
                     <Box display="flex" justifyContent="space-between" alignItems="center" marginTop={1}>
                         <Typography variant="body2" color="text.primary">

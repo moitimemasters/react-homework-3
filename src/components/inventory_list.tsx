@@ -1,12 +1,12 @@
-
 import React, { useMemo } from 'react';
 import { Typography, Box, Grid2 } from '@mui/material';
+import { useSelector } from 'react-redux';
 import Card from './card';
-import Modal from './modal';
-import { useFilters } from '../context/FiltersProvider';
+import Modal from './card_modal';
 import { CardProps } from '../types';
 import { useInView } from 'react-intersection-observer';
 import { styled } from '@mui/system';
+import { RootState } from '../store/store';
 
 interface InventoryListProps {
     items: CardProps[];
@@ -19,21 +19,26 @@ const Container = styled(Box)({
 
 const InventoryList: React.FC<InventoryListProps> = ({ items }) => {
     const [selectedItem, setSelectedItem] = React.useState<CardProps | null>(null);
-    const { search, nonZeroStock, category } = useFilters();
 
-    const filteredItems = useMemo(() => items.filter((item) => {
-        const matchesSearch = item.name.toLowerCase().includes(search.toLowerCase());
-        const matchesStock = !nonZeroStock || item.count > 0;
-        const matchesCategory = !category || item.category === category;
-        return matchesSearch && matchesStock && matchesCategory;
-    }), [items, search, nonZeroStock, category]);
+    const { search, nonZeroStock, category } = useSelector(
+        (state: RootState) => state.goods.filter
+    );
+
+    const filteredItems = useMemo(() =>
+        items.filter((item) => {
+            const matchesSearch = item.name.toLowerCase().includes(search.toLowerCase());
+            const matchesStock = !nonZeroStock || item.count > 0;
+            const matchesCategory = category == -1 || item.categoryId === category;
+            return matchesSearch && matchesStock && matchesCategory;
+        }),
+        [items, search, nonZeroStock, category]
+    );
 
     const { ref, inView } = useInView({
         threshold: 0.1,
     });
 
     const itemsPerPage = 20;
-
     const [visibleCount, setVisibleCount] = React.useState(itemsPerPage);
 
     React.useEffect(() => {
